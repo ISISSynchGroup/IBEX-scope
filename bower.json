@@ -1,0 +1,22 @@
+{
+  "name": "IBEX-scope",
+  "homepage": "https://github.com/ISISSynchGroup/IBEX-scope",
+  "authors": [
+    "John Medland <john.medland@stfc.ac.uk>"
+  ],
+  "description": "A child of the IBEX-device which defines the API of a oscilloscope.",
+  "main": "IBEX-scope.lvproj",
+  "keywords": [
+    "LabVIEW"
+  ],
+  "license": "LGPL-3.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "dependencies",
+    "test"
+  ],
+  "dependencies": {
+    "IBEX-device": "ISISSynchGroup/IBEX-device#0.1.0"
+  }
+}
